@@ -7,8 +7,10 @@ import Child from "./Child";
 const App = () => {
   return (
     <div>
-      <Parent/>
-      <Child/>
+      <Parent>
+        <Child/>
+        </Parent>
+      
         {/* Do not remove the main div */}
 
     </div>
