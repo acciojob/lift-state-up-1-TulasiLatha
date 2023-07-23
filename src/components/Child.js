@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import Parent from "./Parent";
+
 const Child=({showmodal,setShowModal})=>{
     
 function handleChange(){
